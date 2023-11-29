@@ -1,57 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Conversor</title>
-</head>
-<body>
+  </head>
+  <body>
+    <img class="logo-gif" src="/Conversor/assets/logo.gif" alt="Logo moeda" />
 
-    <img src="/Conversor/assets/logo.gif" alt="Logo moeda">
+    <main class="container">
+      <label>
+        Converter de
+        <select>
+          <option>R$ Real Brasileiro</option>
+        </select>
+      </label>
 
-    <main>
-        <label>
-            Converter de 
-            <select>
-                <option>R$ Real Brasileiro</option>
-            </select>
-        </label>
+      <label>
+        Converter para:
+        <select>
+          <option>US$ Dolar</option>
+          <option>€ Euro</option>
+        </select>
+      </label>
 
-        <label>
-            Converter para: 
-            <select>
-                <option>US$ Dolar</option>
-                <option>€ Euro</option>
-            </select>
-        </label>
+      <label for="">
+        Valor
+        <input type="number" placeholder="2.000,00" />
+      </label>
 
-        <label for="">
-            Valor
-            <input type="number" placeholder="2.000,00">
-        </label>
+      <button>Converter</button>
 
-        <button>Converter</button>
+      <section>
+        <div class="Conversor">
+          <img src="/Conversor/assets/Real.png" alt="Real" />
+          <p class="moeda">Real</p>
+          <p class="moeda-valor">$</p>
+        </div>
+
+        <img class="img-seta" src="/Conversor/assets/Seta.png" alt="Seta virada pra baixo" />
+
+        <div class="Conversor">
+          <img src="/Conversor/assets/Dolar.png" alt="Dolar" />
+          <p class="moeda">Dolar</p>
+          <p class="moeda-valor">$</p>
+        </div>
+      </section>
     </main>
-
-    <section>
-
-        <div>
-            <img src="/Conversor/assets/Real.png" alt="Real">
-            <span>Real</span>
-            <p>$</p>
-        </div>
-
-        <img src="/Conversor/assets/Seta.png" alt="Seta virada pra baixo">
-
-        <div>
-            <img src="/Conversor/assets/Dolar.png" alt="Dolar">
-            <span>Dolar</span>
-            <p>$</p>
-        </div>
-
-
-    </section>
-    
-
-</body>
+  </body>
 </html>
