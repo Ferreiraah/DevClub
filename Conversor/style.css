@@ -57,7 +57,7 @@ input {
   cursor: pointer;
 }
 
-button {
+.botao-conversor {
   background-color: #772fd3;
   border-radius: 5px;
 
@@ -82,46 +82,44 @@ button:active {
   opacity: 0.6;
 }
 
+section {
+  border: 1px solid #772fd3;
+  border-radius: 20px;
 
-section{
-    border: 1px solid #772FD3;
-    border-radius: 20px;
+  margin-top: 36px;
+  padding: 12px;
 
-    margin-top: 36px;
-    padding: 12px;
-
-    display: flex;
-    flex-direction: column;
-     align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-.img-seta{
-    width: 35px;
-    height: 50px;
-    
-    margin: 15px 0;
+.img-seta {
+  width: 35px;
+  height: 50px;
+
+  margin: 15px 0;
 }
 
+.convertido .conversao-final {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-.conversor{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-    gap: 5px;
+  gap: 5px;
 }
 
-.moeda{
-    color: #777777;
-    font-size: 14px;
-    text-align: center;
+.moeda {
+  color: #777777;
+  font-size: 14px;
+  text-align: center;
 }
 
-.moeda-valor{
-    color: #555555;
-    font-weight: 700;
-    font-size: 20px;
-    text-align: center;
-
+.moeda-a-converter .moeda-convertida {
+  color: #555555;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
 }
